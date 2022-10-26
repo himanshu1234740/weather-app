@@ -1,0 +1,55 @@
+.card{
+    background-color: rgb(104, 198, 255);
+    box-Shadow: 2px 4px 10px lightgrey;
+    border-radius: 20px;
+    height: 450px;
+    width: 60rem;
+}
+.humidity1{
+        margin-left: 1rem;
+}
+.humidity{
+    margin-left: 5rem;
+}
+.checkWeather{
+    height: 120px;
+    width: 120px;
+}
+.logo{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 120px;
+}
+@media only screen and (max-width: 500px) {
+    
+    .card{
+        height: 450px;
+        width: 90%;
+        text-align: center;
+        
+        margin-left: 5%;
+    }
+    .logo{
+        height: 2rem;
+        width: 2rem;
+        margin-left: 0px;
+    }
+    .humidity{
+        margin-left: 1rem;
+    }
+    .humidity1{
+        margin-left: -1rem;
+    }
+    .detail{
+        font-size: 13px;
+       
+    }
+    h4{
+        font-size: 13px;
+    }
+    .checkWeather{
+        height: 4rem;
+        width: 4rem;
+    }
+   
+}

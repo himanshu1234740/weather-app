@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import GetData from './comonents/GetData';
+import Navbar from './comonents/Navbar';
+import Data from "./context/Weatherdata";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Data>
+        <Navbar />.
+        <div className="my-2 d-flex justify-content-center " >
+          <GetData/>
+        </div>
+      </Data>
+    </>
   );
 }
 
