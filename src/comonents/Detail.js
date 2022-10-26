@@ -6,6 +6,7 @@ import rainImg from '../img/rain.png'
 import logo from '../img/main.png'
 import clear from '../img/clear.png'
 import mist from '../img/mist.png'
+import smoke from '../img/smoke.png'
 import './style.css'
 
 export default function Detail(props) {
@@ -26,10 +27,11 @@ export default function Detail(props) {
     }
     else if(rain==='Clear'){
         weatherForcastImages = clear
+    }else if(rain==='Smoke'){
+        weatherForcastImages = smoke
+    }else{
+        weatherForcastImages = mist
     }
-
-    let sunSetTiming = sun.sunset-sun.sunrise
-    
 
     return (
         <>
