@@ -10,8 +10,9 @@ export default function Card(props) {
     return (
         <>
             <div>
+            
                 <div className="card text-light"  >
-                    {lodings && <Spiner />}
+                {lodings && <Spiner />}
                     <div className="card-body text-center">
                         {!(lodings) && <Detail temperature={props.temperature} />}
                         <hr />

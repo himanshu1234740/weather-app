@@ -24,11 +24,12 @@
     
     .card{
         height: 450px;
-        width: 90%;
+        width: 22rem;
         text-align: center;
         
-        margin-left: 5%;
+        margin-left: 0.5%;
     }
+    
     .logo{
         height: 2rem;
         width: 2rem;
@@ -50,6 +51,9 @@
     .checkWeather{
         height: 4rem;
         width: 4rem;
+    }
+    hr{
+        width: 90%;
     }
    
 }
